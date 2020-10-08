@@ -1,7 +1,7 @@
 README.md:
 	touch README.md
 	echo "#GuessingGame" >> README.md
-	echo -n "Date & time of running make: "
+	echo "Date & time of running make: " >> README.md
 	date >> README.md
-	echo -n "Length of bash script: "
+	echo "Length of bash script: " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
